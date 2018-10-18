@@ -1,0 +1,42 @@
+{
+  "connection": "default",
+  "collectionName": "products",
+  "info": {
+    "name": "products",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "type": {
+      "default": "",
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "اسماء",
+        "أطقم ذهب",
+        "منوعات"
+      ]
+    },
+    "price": {
+      "default": "",
+      "type": "decimal"
+    },
+    "views": {
+      "default": 0,
+      "type": "integer"
+    }
+  }
+}
