@@ -19,9 +19,12 @@
     "eslint-plugin-react": "^6.8.0"
   },
   "dependencies": {
-    "lodash": "4.x.x",
+    "lodash": "^4.17.11",
     "strapi": "3.0.0-alpha.14.2",
-    "strapi-hook-mongoose": "3.0.0-alpha.14.2"
+    "strapi-hook-mongoose": "3.0.0-alpha.14.2",
+    "strapi-plugin-upload": "0.0.0",
+    "strapi-upload-cloudinary": "^3.0.0-alpha.12",
+    "strapi-upload-digitalocean": "^3.0.0-alpha.13.1"
   },
   "author": {
     "name": "mohsen",
